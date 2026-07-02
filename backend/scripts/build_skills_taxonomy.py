@@ -1,0 +1,268 @@
+"""One-off script that writes backend/app/data/skills_taxonomy.json.
+
+The skill list is grounded in a frequency scan of the real corpus's "Skills"
+sections (see notebooks/01_data_exploration.ipynb for the scan itself), plus a
+small set of standard technical terms not well represented in this ~2010s-era
+resume dataset but needed for the tool to be useful on modern job descriptions.
+
+Run once from the backend/ directory:
+    python3 scripts/build_skills_taxonomy.py
+"""
+
+import json
+from pathlib import Path
+
+OUTPUT_PATH = Path(__file__).resolve().parent.parent / "app" / "data" / "skills_taxonomy.json"
+
+# Each group maps a domain/category tag to (canonical skill, [aliases]) pairs.
+# Canonical names and the bulk of entries were selected from the most frequent
+# terms found in the dataset's own "Skills" resume sections.
+TAXONOMY = {
+    "office_tools": [
+        ("Microsoft Excel", ["excel", "ms excel", "microsoft office excel"]),
+        ("Microsoft Word", ["word", "ms word", "microsoft office word"]),
+        ("Microsoft PowerPoint", ["powerpoint", "power point", "ms powerpoint"]),
+        ("Microsoft Outlook", ["outlook", "ms outlook"]),
+        ("Microsoft Access", ["access", "ms access"]),
+        ("Microsoft Office", ["ms office", "office suite"]),
+        ("SharePoint", ["microsoft sharepoint"]),
+        ("QuickBooks", ["quickbooks"]),
+        ("Data Entry", ["data entry"]),
+        ("Filing", ["filing", "records management"]),
+        ("Scheduling", ["scheduling", "calendar management"]),
+        ("Google Analytics", ["google analytics"]),
+    ],
+    "business_admin": [
+        ("Budgeting", ["budgeting", "budgets", "budget management"]),
+        ("Forecasting", ["forecasting"]),
+        ("Procurement", ["procurement", "purchasing"]),
+        ("Inventory Management", ["inventory management", "inventory control", "inventory"]),
+        ("Vendor Management", ["vendor management"]),
+        ("Project Management", ["project management"]),
+        ("Contract Management", ["contracts", "contract review", "contract negotiation"]),
+        ("Reporting", ["reporting", "report writing"]),
+        ("Documentation", ["documentation"]),
+        ("Process Improvement", ["process improvement", "continuous improvement", "processes"]),
+        ("Quality Control", ["quality control"]),
+        ("Quality Assurance", ["quality assurance", "qa"]),
+        ("Six Sigma", ["six sigma", "lean six sigma"]),
+        ("Supervision", ["supervision", "supervisor"]),
+        ("Staffing", ["staffing"]),
+        ("Logistics", ["logistics"]),
+        ("Supply Chain Management", ["supply chain", "supply chain management"]),
+        ("Shipping and Receiving", ["shipping", "receiving"]),
+        ("Cost Control", ["cost control"]),
+        ("Workflow Management", ["workflow"]),
+        ("Data Collection", ["data collection"]),
+        ("Data Analysis", ["data analysis"]),
+        ("Research", ["research"]),
+    ],
+    "soft_skills": [
+        ("Leadership", ["leadership"]),
+        ("Communication Skills", ["communication skills", "communication"]),
+        ("Presentation Skills", ["presentations", "presentation skills"]),
+        ("Team Management", ["team management", "managing"]),
+        ("Time Management", ["time management"]),
+        ("Critical Thinking", ["critical thinking"]),
+        ("Problem Solving", ["problem solving"]),
+        ("Decision Making", ["decision making"]),
+        ("Conflict Resolution", ["conflict resolution"]),
+        ("Coaching", ["coaching"]),
+        ("Mentoring", ["mentoring"]),
+        ("Training", ["training", "training programs", "training materials"]),
+        ("Customer Service", ["customer service"]),
+        ("Customer Satisfaction", ["customer satisfaction"]),
+        ("Organisational Skills", ["organizational", "organizational skills", "organisational skills"]),
+        ("Strategic Planning", ["strategic", "strategic planning", "strategy"]),
+        ("Negotiation", ["negotiation"]),
+    ],
+    "sales_marketing": [
+        ("Sales", ["sales", "selling"]),
+        ("Marketing", ["marketing"]),
+        ("Advertising", ["advertising"]),
+        ("Merchandising", ["merchandising"]),
+        ("Business Development", ["business development"]),
+        ("Cold Calling", ["cold calling"]),
+        ("Customer Relationship Management (CRM)", ["crm", "customer relations"]),
+        ("Market Research", ["market research", "market"]),
+        ("Pricing Strategy", ["pricing"]),
+        ("Branding", ["branding", "brand management"]),
+        ("Digital Marketing", ["digital marketing"]),
+        ("Social Media Marketing", ["social media", "social media marketing"]),
+        ("Email Marketing", ["email marketing"]),
+        ("Search Engine Optimisation (SEO)", ["seo", "search engine optimization", "search engine optimisation"]),
+        ("Professional Networking", ["professional networking", "business networking"]),
+        ("Retail Operations", ["retail"]),
+        ("Closing Sales", ["closing"]),
+    ],
+    "finance_accounting": [
+        ("Accounting", ["accounting"]),
+        ("Financial Statements", ["financial statements"]),
+        ("General Ledger", ["general ledger"]),
+        ("Accounts Payable", ["accounts payable"]),
+        ("Accounts Receivable", ["accounts receivable"]),
+        ("Balance Sheet", ["balance sheet"]),
+        ("Bank Reconciliation", ["bank reconciliations", "bank reconciliation"]),
+        ("Tax Preparation", ["tax"]),
+        ("Cash Flow Management", ["cash flow"]),
+        ("Financial Reporting", ["financial reporting"]),
+        ("Financial Management", ["financial management", "finance"]),
+        ("Fixed Assets", ["fixed assets"]),
+        ("Payroll", ["payroll"]),
+        ("Billing", ["billing"]),
+        ("Credit Analysis", ["credit"]),
+        ("Auditing", ["auditing", "audit"]),
+        ("SAP", ["sap"]),
+        ("Banking Operations", ["banking"]),
+        ("Real Estate Finance", ["real estate"]),
+    ],
+    "human_resources": [
+        ("Human Resources", ["hr", "human resources", "human resource management"]),
+        ("Recruitment", ["recruitment", "recruiting"]),
+        ("Employee Relations", ["employee relations"]),
+        ("Performance Management", ["performance management"]),
+        ("HRIS", ["hris", "hris development"]),
+        ("Benefits Administration", ["benefits administration", "benefits"]),
+        ("Onboarding", ["onboarding"]),
+        ("Talent Acquisition", ["talent acquisition", "hiring"]),
+        ("Policy Development", ["policy development", "policies"]),
+        ("ADP", ["adp"]),
+        ("Labor Relations", ["labor relations", "employee/labor relations"]),
+    ],
+    "it_technical": [
+        ("SQL", ["sql", "mysql", "t-sql"]),
+        ("Python", ["python", "python3"]),
+        ("Java", ["java"]),
+        ("C++", ["c++"]),
+        ("C#", ["c#"]),
+        ("JavaScript", ["javascript", "js"]),
+        ("HTML", ["html", "html5"]),
+        ("CSS", ["css", "css3"]),
+        ("Linux", ["linux"]),
+        ("Windows Server", ["windows", "windows server"]),
+        ("Active Directory", ["active directory"]),
+        ("Networking", ["networking", "network"]),
+        ("Cisco Systems", ["cisco"]),
+        ("VPN", ["vpn"]),
+        ("Citrix", ["citrix"]),
+        ("Help Desk Support", ["help desk", "technical support"]),
+        ("Troubleshooting", ["troubleshooting"]),
+        ("Disaster Recovery", ["disaster recovery"]),
+        ("Databases", ["databases", "database"]),
+        ("Cloud Computing", ["cloud", "cloud computing"]),
+        ("Amazon Web Services (AWS)", ["aws", "amazon web services"]),
+        ("Microsoft Azure", ["azure", "microsoft azure"]),
+        ("Docker", ["docker"]),
+        ("Kubernetes", ["kubernetes", "k8s"]),
+        ("Git", ["git", "version control"]),
+        ("React", ["react", "react.js", "reactjs"]),
+        ("Node.js", ["node.js", "nodejs", "node"]),
+        ("REST APIs", ["rest api", "rest apis", "api development"]),
+        ("Machine Learning", ["machine learning"]),
+        ("Servers", ["servers", "server administration"]),
+        ("Hardware", ["hardware"]),
+        ("Information Technology", ["information technology", "it"]),
+        ("Enterprise Systems", ["enterprise"]),
+        ("Oracle Database", ["oracle", "oracle db", "oracle database"]),
+        ("Consulting", ["consulting", "consultant"]),
+    ],
+    "engineering": [
+        ("AutoCAD", ["autocad"]),
+        ("MATLAB", ["matlab"]),
+        ("Mechanical Design", ["mechanical"]),
+        ("Drafting", ["drafting"]),
+        ("HVAC", ["hvac"]),
+        ("Plumbing", ["plumbing"]),
+        ("Electrical Systems", ["electrical"]),
+        ("SolidWorks", ["solidworks"]),
+        ("Estimating", ["estimating"]),
+        ("Blueprint Reading", ["blueprint reading", "blueprints"]),
+        ("Inspection", ["inspection"]),
+        ("OSHA Compliance", ["osha"]),
+        ("Welding", ["welding"]),
+        ("Carpentry", ["carpentry"]),
+        ("First Aid Certified", ["first aid"]),
+    ],
+    "design_creative": [
+        ("Adobe Photoshop", ["photoshop", "adobe photoshop"]),
+        ("Adobe Illustrator", ["illustrator", "adobe illustrator"]),
+        ("Adobe InDesign", ["indesign", "adobe indesign"]),
+        ("Adobe Creative Suite", ["adobe creative suite"]),
+        ("3D Modelling", ["3d", "3d modeling", "3d modelling"]),
+        ("Layout Design", ["layout"]),
+        ("Typography", ["typography"]),
+        ("UI/UX Design", ["ui/ux", "ux design", "ui design"]),
+        ("Figma", ["figma"]),
+        ("Video Editing", ["video editing"]),
+        ("Final Cut Pro", ["final cut pro"]),
+        ("Graphic Design", ["graphic design", "graphics", "graphic"]),
+        ("Content Strategy", ["content", "content strategy"]),
+    ],
+    "healthcare": [
+        ("Patient Care", ["patient care"]),
+        ("HIPAA Compliance", ["hipaa"]),
+        ("Clinical Skills", ["clinical"]),
+        ("Nursing", ["nursing"]),
+        ("Medical Terminology", ["medical terminology"]),
+        ("Vital Signs Monitoring", ["vital signs"]),
+        ("Electronic Health Records (EHR)", ["electronic health records", "ehr"]),
+        ("Phlebotomy", ["phlebotomy"]),
+        ("CPR Certified", ["cpr"]),
+    ],
+    "hospitality_food": [
+        ("Food Safety", ["food safety"]),
+        ("Menu Planning", ["menu planning"]),
+        ("Cooking", ["cooking"]),
+        ("Culinary Arts", ["culinary"]),
+        ("Banquet Operations", ["banquet"]),
+        ("Catering", ["catering"]),
+    ],
+    "education": [
+        ("Lesson Planning", ["lesson planning", "lesson plans"]),
+        ("Curriculum Development", ["curriculum development"]),
+        ("Classroom Management", ["classroom management"]),
+        ("Teaching", ["teaching", "instruction"]),
+        ("Tutoring", ["tutoring"]),
+        ("Special Education", ["special education"]),
+        ("Mathematics Instruction", ["mathematics", "math"]),
+    ],
+    "legal": [
+        ("Litigation", ["litigation"]),
+        ("Legal Research", ["legal research"]),
+        ("Contract Review", ["contract review"]),
+        ("Compliance", ["compliance"]),
+        ("Case Management", ["case management"]),
+    ],
+    "aviation_logistics": [
+        ("Fleet Management", ["fleet management"]),
+        ("Dispatch", ["dispatch"]),
+        ("FAA Regulations", ["faa regulations", "faa"]),
+    ],
+    "public_relations": [
+        ("Media Relations", ["media relations"]),
+        ("Press Releases", ["press releases", "press"]),
+        ("Event Planning", ["event planning"]),
+        ("Crisis Communication", ["crisis communication"]),
+    ],
+    "fitness": [
+        ("Personal Training", ["personal training"]),
+        ("Group Fitness Instruction", ["group fitness"]),
+        ("Nutrition Coaching", ["nutrition"]),
+        ("Exercise Programming", ["exercise programming", "training programs"]),
+    ],
+}
+
+
+def build() -> list[dict]:
+    entries = []
+    for category, items in TAXONOMY.items():
+        for skill, aliases in items:
+            entries.append({"skill": skill, "aliases": aliases, "category": category})
+    return entries
+
+
+if __name__ == "__main__":
+    entries = build()
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(json.dumps(entries, indent=2))
+    print(f"Wrote {len(entries)} skill entries to {OUTPUT_PATH}")

@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+
+# Original downloaded Kaggle archive (kept locally, not part of the repo)
+archive (1)/
+
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "it-support-engineer",
+    "title": "Information Technology Support Engineer",
+    "category": "INFORMATION-TECHNOLOGY",
+    "description": "We are looking for an IT Support Engineer to maintain our network infrastructure and provide help desk support to staff. You will manage user accounts in Active Directory, troubleshoot hardware and software issues, administer Windows Server environments, and write SQL queries to investigate data issues. Experience with cloud platforms and automation is a bonus.",
+    "required_skills": ["Networking", "Troubleshooting", "Active Directory", "Help Desk Support", "Windows Server", "SQL"],
+    "preferred_skills": ["Amazon Web Services (AWS)", "Docker", "Python", "Linux", "Cloud Computing"]
+  },
+  {
+    "id": "business-development-manager",
+    "title": "Business Development Manager",
+    "category": "BUSINESS-DEVELOPMENT",
+    "description": "Our organisation is hiring a Business Development Manager to identify new business opportunities, build client relationships and grow revenue. You will carry out market research, run outbound prospecting campaigns and negotiate contracts with new customers, reporting on pipeline using our CRM.",
+    "required_skills": ["Business Development", "Sales", "Negotiation", "Market Research", "Customer Relationship Management (CRM)"],
+    "preferred_skills": ["Professional Networking", "Strategic Planning", "Cold Calling", "Forecasting"]
+  },
+  {
+    "id": "staff-accountant",
+    "title": "Staff Accountant",
+    "category": "ACCOUNTANT",
+    "description": "We require a detail-oriented Staff Accountant to maintain the general ledger, process accounts payable and receivable, prepare financial statements and complete monthly bank reconciliations. You will support the finance team during tax season and year-end audits.",
+    "required_skills": ["Accounting", "General Ledger", "Accounts Payable", "Accounts Receivable", "Financial Statements", "Bank Reconciliation"],
+    "preferred_skills": ["QuickBooks", "SAP", "Tax Preparation", "Auditing"]
+  },
+  {
+    "id": "legal-advocate",
+    "title": "Legal Advocate",
+    "category": "ADVOCATE",
+    "description": "A busy legal practice is seeking a Legal Advocate to conduct legal research, review contracts, manage litigation case files and ensure regulatory compliance for clients. Strong written communication and time management are essential.",
+    "required_skills": ["Legal Research", "Litigation", "Contract Review", "Case Management", "Compliance"],
+    "preferred_skills": ["Communication Skills", "Negotiation", "Time Management"]
+  },
+  {
+    "id": "mechanical-design-engineer",
+    "title": "Mechanical Design Engineer",
+    "category": "ENGINEERING",
+    "description": "We are hiring a Mechanical Design Engineer to produce technical drawings in AutoCAD, run simulations in MATLAB and oversee quality control on the production line. You will support inspection processes and help drive continuous improvement initiatives.",
+    "required_skills": ["AutoCAD", "Mechanical Design", "MATLAB", "Drafting", "Quality Control"],
+    "preferred_skills": ["SolidWorks", "Six Sigma", "Blueprint Reading", "Inspection"]
+  },
+  {
+    "id": "financial-analyst",
+    "title": "Financial Analyst",
+    "category": "FINANCE",
+    "description": "The finance team needs a Financial Analyst to build forecasts, manage budgets, monitor cash flow and produce financial reporting for senior management. You will analyse financial statements to identify trends and support strategic decision-making.",
+    "required_skills": ["Financial Reporting", "Financial Statements", "Forecasting", "Budgeting", "Cash Flow Management"],
+    "preferred_skills": ["SAP", "Auditing", "Data Analysis"]
+  },
+  {
+    "id": "executive-chef",
+    "title": "Executive Chef",
+    "category": "CHEF",
+    "description": "A busy restaurant is seeking an Executive Chef to design menus, manage food safety standards, control costs and lead the kitchen brigade. You will oversee inventory, banquet events and catering orders whilst maintaining consistent food quality.",
+    "required_skills": ["Culinary Arts", "Cooking", "Menu Planning", "Food Safety", "Cost Control"],
+    "preferred_skills": ["Inventory Management", "Banquet Operations", "Catering", "Team Management"]
+  },
+  {
+    "id": "healthcare-coordinator",
+    "title": "Healthcare Coordinator",
+    "category": "HEALTHCARE",
+    "description": "We are recruiting a Healthcare Coordinator to deliver patient care, maintain electronic health records and ensure HIPAA compliance across the clinic. Familiarity with clinical terminology and vital signs monitoring is required.",
+    "required_skills": ["Patient Care", "Clinical Skills", "Medical Terminology", "HIPAA Compliance", "Electronic Health Records (EHR)"],
+    "preferred_skills": ["CPR Certified", "Vital Signs Monitoring", "Phlebotomy", "Time Management"]
+  },
+  {
+    "id": "aviation-logistics-coordinator",
+    "title": "Aviation Logistics Coordinator",
+    "category": "AVIATION",
+    "description": "An aviation services provider needs a Logistics Coordinator to manage supply chain operations, oversee fleet maintenance scheduling and ensure quality assurance across dispatch operations, in line with FAA regulations.",
+    "required_skills": ["Logistics", "Supply Chain Management", "Fleet Management", "Quality Assurance", "Inspection"],
+    "preferred_skills": ["Dispatch", "FAA Regulations", "Troubleshooting", "Inventory Management"]
+  },
+  {
+    "id": "it-consultant",
+    "title": "IT Consultant",
+    "category": "CONSULTANT",
+    "description": "We are seeking an IT Consultant to advise clients on network architecture, administer databases and support enterprise systems including VPN and Citrix environments. You will consult on Oracle database performance and Windows infrastructure upgrades.",
+    "required_skills": ["Consulting", "Networking", "Databases", "SQL", "VPN"],
+    "preferred_skills": ["Citrix", "Windows Server", "Oracle Database", "Enterprise Systems"]
+  }
+]

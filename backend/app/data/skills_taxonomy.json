@@ -1,0 +1,1500 @@
+[
+  {
+    "skill": "Microsoft Excel",
+    "aliases": [
+      "excel",
+      "ms excel",
+      "microsoft office excel"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Microsoft Word",
+    "aliases": [
+      "word",
+      "ms word",
+      "microsoft office word"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Microsoft PowerPoint",
+    "aliases": [
+      "powerpoint",
+      "power point",
+      "ms powerpoint"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Microsoft Outlook",
+    "aliases": [
+      "outlook",
+      "ms outlook"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Microsoft Access",
+    "aliases": [
+      "access",
+      "ms access"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Microsoft Office",
+    "aliases": [
+      "ms office",
+      "office suite"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "SharePoint",
+    "aliases": [
+      "microsoft sharepoint"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "QuickBooks",
+    "aliases": [
+      "quickbooks"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Data Entry",
+    "aliases": [
+      "data entry"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Filing",
+    "aliases": [
+      "filing",
+      "records management"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Scheduling",
+    "aliases": [
+      "scheduling",
+      "calendar management"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Google Analytics",
+    "aliases": [
+      "google analytics"
+    ],
+    "category": "office_tools"
+  },
+  {
+    "skill": "Budgeting",
+    "aliases": [
+      "budgeting",
+      "budgets",
+      "budget management"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Forecasting",
+    "aliases": [
+      "forecasting"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Procurement",
+    "aliases": [
+      "procurement",
+      "purchasing"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Inventory Management",
+    "aliases": [
+      "inventory management",
+      "inventory control",
+      "inventory"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Vendor Management",
+    "aliases": [
+      "vendor management"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Project Management",
+    "aliases": [
+      "project management"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Contract Management",
+    "aliases": [
+      "contracts",
+      "contract review",
+      "contract negotiation"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Reporting",
+    "aliases": [
+      "reporting",
+      "report writing"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Documentation",
+    "aliases": [
+      "documentation"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Process Improvement",
+    "aliases": [
+      "process improvement",
+      "continuous improvement",
+      "processes"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Quality Control",
+    "aliases": [
+      "quality control"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Quality Assurance",
+    "aliases": [
+      "quality assurance",
+      "qa"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Six Sigma",
+    "aliases": [
+      "six sigma",
+      "lean six sigma"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Supervision",
+    "aliases": [
+      "supervision",
+      "supervisor"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Staffing",
+    "aliases": [
+      "staffing"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Logistics",
+    "aliases": [
+      "logistics"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Supply Chain Management",
+    "aliases": [
+      "supply chain",
+      "supply chain management"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Shipping and Receiving",
+    "aliases": [
+      "shipping",
+      "receiving"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Cost Control",
+    "aliases": [
+      "cost control"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Workflow Management",
+    "aliases": [
+      "workflow"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Data Collection",
+    "aliases": [
+      "data collection"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Data Analysis",
+    "aliases": [
+      "data analysis"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Research",
+    "aliases": [
+      "research"
+    ],
+    "category": "business_admin"
+  },
+  {
+    "skill": "Leadership",
+    "aliases": [
+      "leadership"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Communication Skills",
+    "aliases": [
+      "communication skills",
+      "communication"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Presentation Skills",
+    "aliases": [
+      "presentations",
+      "presentation skills"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Team Management",
+    "aliases": [
+      "team management",
+      "managing"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Time Management",
+    "aliases": [
+      "time management"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Critical Thinking",
+    "aliases": [
+      "critical thinking"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Problem Solving",
+    "aliases": [
+      "problem solving"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Decision Making",
+    "aliases": [
+      "decision making"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Conflict Resolution",
+    "aliases": [
+      "conflict resolution"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Coaching",
+    "aliases": [
+      "coaching"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Mentoring",
+    "aliases": [
+      "mentoring"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Training",
+    "aliases": [
+      "training",
+      "training programs",
+      "training materials"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Customer Service",
+    "aliases": [
+      "customer service"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Customer Satisfaction",
+    "aliases": [
+      "customer satisfaction"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Organisational Skills",
+    "aliases": [
+      "organizational",
+      "organizational skills",
+      "organisational skills"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Strategic Planning",
+    "aliases": [
+      "strategic",
+      "strategic planning",
+      "strategy"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Negotiation",
+    "aliases": [
+      "negotiation"
+    ],
+    "category": "soft_skills"
+  },
+  {
+    "skill": "Sales",
+    "aliases": [
+      "sales",
+      "selling"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Marketing",
+    "aliases": [
+      "marketing"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Advertising",
+    "aliases": [
+      "advertising"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Merchandising",
+    "aliases": [
+      "merchandising"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Business Development",
+    "aliases": [
+      "business development"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Cold Calling",
+    "aliases": [
+      "cold calling"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Customer Relationship Management (CRM)",
+    "aliases": [
+      "crm",
+      "customer relations"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Market Research",
+    "aliases": [
+      "market research",
+      "market"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Pricing Strategy",
+    "aliases": [
+      "pricing"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Branding",
+    "aliases": [
+      "branding",
+      "brand management"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Digital Marketing",
+    "aliases": [
+      "digital marketing"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Social Media Marketing",
+    "aliases": [
+      "social media",
+      "social media marketing"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Email Marketing",
+    "aliases": [
+      "email marketing"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Search Engine Optimisation (SEO)",
+    "aliases": [
+      "seo",
+      "search engine optimization",
+      "search engine optimisation"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Professional Networking",
+    "aliases": [
+      "professional networking",
+      "business networking"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Retail Operations",
+    "aliases": [
+      "retail"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Closing Sales",
+    "aliases": [
+      "closing"
+    ],
+    "category": "sales_marketing"
+  },
+  {
+    "skill": "Accounting",
+    "aliases": [
+      "accounting"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Financial Statements",
+    "aliases": [
+      "financial statements"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "General Ledger",
+    "aliases": [
+      "general ledger"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Accounts Payable",
+    "aliases": [
+      "accounts payable"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Accounts Receivable",
+    "aliases": [
+      "accounts receivable"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Balance Sheet",
+    "aliases": [
+      "balance sheet"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Bank Reconciliation",
+    "aliases": [
+      "bank reconciliations",
+      "bank reconciliation"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Tax Preparation",
+    "aliases": [
+      "tax"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Cash Flow Management",
+    "aliases": [
+      "cash flow"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Financial Reporting",
+    "aliases": [
+      "financial reporting"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Financial Management",
+    "aliases": [
+      "financial management",
+      "finance"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Fixed Assets",
+    "aliases": [
+      "fixed assets"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Payroll",
+    "aliases": [
+      "payroll"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Billing",
+    "aliases": [
+      "billing"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Credit Analysis",
+    "aliases": [
+      "credit"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Auditing",
+    "aliases": [
+      "auditing",
+      "audit"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "SAP",
+    "aliases": [
+      "sap"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Banking Operations",
+    "aliases": [
+      "banking"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Real Estate Finance",
+    "aliases": [
+      "real estate"
+    ],
+    "category": "finance_accounting"
+  },
+  {
+    "skill": "Human Resources",
+    "aliases": [
+      "hr",
+      "human resources",
+      "human resource management"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Recruitment",
+    "aliases": [
+      "recruitment",
+      "recruiting"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Employee Relations",
+    "aliases": [
+      "employee relations"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Performance Management",
+    "aliases": [
+      "performance management"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "HRIS",
+    "aliases": [
+      "hris",
+      "hris development"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Benefits Administration",
+    "aliases": [
+      "benefits administration",
+      "benefits"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Onboarding",
+    "aliases": [
+      "onboarding"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Talent Acquisition",
+    "aliases": [
+      "talent acquisition",
+      "hiring"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Policy Development",
+    "aliases": [
+      "policy development",
+      "policies"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "ADP",
+    "aliases": [
+      "adp"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "Labor Relations",
+    "aliases": [
+      "labor relations",
+      "employee/labor relations"
+    ],
+    "category": "human_resources"
+  },
+  {
+    "skill": "SQL",
+    "aliases": [
+      "sql",
+      "mysql",
+      "t-sql"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Python",
+    "aliases": [
+      "python",
+      "python3"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Java",
+    "aliases": [
+      "java"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "C++",
+    "aliases": [
+      "c++"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "C#",
+    "aliases": [
+      "c#"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "JavaScript",
+    "aliases": [
+      "javascript",
+      "js"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "HTML",
+    "aliases": [
+      "html",
+      "html5"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "CSS",
+    "aliases": [
+      "css",
+      "css3"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Linux",
+    "aliases": [
+      "linux"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Windows Server",
+    "aliases": [
+      "windows",
+      "windows server"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Active Directory",
+    "aliases": [
+      "active directory"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Networking",
+    "aliases": [
+      "networking",
+      "network"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Cisco Systems",
+    "aliases": [
+      "cisco"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "VPN",
+    "aliases": [
+      "vpn"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Citrix",
+    "aliases": [
+      "citrix"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Help Desk Support",
+    "aliases": [
+      "help desk",
+      "technical support"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Troubleshooting",
+    "aliases": [
+      "troubleshooting"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Disaster Recovery",
+    "aliases": [
+      "disaster recovery"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Databases",
+    "aliases": [
+      "databases",
+      "database"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Cloud Computing",
+    "aliases": [
+      "cloud",
+      "cloud computing"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Amazon Web Services (AWS)",
+    "aliases": [
+      "aws",
+      "amazon web services"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Microsoft Azure",
+    "aliases": [
+      "azure",
+      "microsoft azure"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Docker",
+    "aliases": [
+      "docker"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Kubernetes",
+    "aliases": [
+      "kubernetes",
+      "k8s"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Git",
+    "aliases": [
+      "git",
+      "version control"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "React",
+    "aliases": [
+      "react",
+      "react.js",
+      "reactjs"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Node.js",
+    "aliases": [
+      "node.js",
+      "nodejs",
+      "node"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "REST APIs",
+    "aliases": [
+      "rest api",
+      "rest apis",
+      "api development"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Machine Learning",
+    "aliases": [
+      "machine learning"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Servers",
+    "aliases": [
+      "servers",
+      "server administration"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Hardware",
+    "aliases": [
+      "hardware"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Information Technology",
+    "aliases": [
+      "information technology",
+      "it"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Enterprise Systems",
+    "aliases": [
+      "enterprise"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Oracle Database",
+    "aliases": [
+      "oracle",
+      "oracle db",
+      "oracle database"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "Consulting",
+    "aliases": [
+      "consulting",
+      "consultant"
+    ],
+    "category": "it_technical"
+  },
+  {
+    "skill": "AutoCAD",
+    "aliases": [
+      "autocad"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "MATLAB",
+    "aliases": [
+      "matlab"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Mechanical Design",
+    "aliases": [
+      "mechanical"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Drafting",
+    "aliases": [
+      "drafting"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "HVAC",
+    "aliases": [
+      "hvac"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Plumbing",
+    "aliases": [
+      "plumbing"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Electrical Systems",
+    "aliases": [
+      "electrical"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "SolidWorks",
+    "aliases": [
+      "solidworks"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Estimating",
+    "aliases": [
+      "estimating"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Blueprint Reading",
+    "aliases": [
+      "blueprint reading",
+      "blueprints"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Inspection",
+    "aliases": [
+      "inspection"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "OSHA Compliance",
+    "aliases": [
+      "osha"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Welding",
+    "aliases": [
+      "welding"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Carpentry",
+    "aliases": [
+      "carpentry"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "First Aid Certified",
+    "aliases": [
+      "first aid"
+    ],
+    "category": "engineering"
+  },
+  {
+    "skill": "Adobe Photoshop",
+    "aliases": [
+      "photoshop",
+      "adobe photoshop"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Adobe Illustrator",
+    "aliases": [
+      "illustrator",
+      "adobe illustrator"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Adobe InDesign",
+    "aliases": [
+      "indesign",
+      "adobe indesign"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Adobe Creative Suite",
+    "aliases": [
+      "adobe creative suite"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "3D Modelling",
+    "aliases": [
+      "3d",
+      "3d modeling",
+      "3d modelling"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Layout Design",
+    "aliases": [
+      "layout"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Typography",
+    "aliases": [
+      "typography"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "UI/UX Design",
+    "aliases": [
+      "ui/ux",
+      "ux design",
+      "ui design"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Figma",
+    "aliases": [
+      "figma"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Video Editing",
+    "aliases": [
+      "video editing"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Final Cut Pro",
+    "aliases": [
+      "final cut pro"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Graphic Design",
+    "aliases": [
+      "graphic design",
+      "graphics",
+      "graphic"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Content Strategy",
+    "aliases": [
+      "content",
+      "content strategy"
+    ],
+    "category": "design_creative"
+  },
+  {
+    "skill": "Patient Care",
+    "aliases": [
+      "patient care"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "HIPAA Compliance",
+    "aliases": [
+      "hipaa"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "Clinical Skills",
+    "aliases": [
+      "clinical"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "Nursing",
+    "aliases": [
+      "nursing"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "Medical Terminology",
+    "aliases": [
+      "medical terminology"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "Vital Signs Monitoring",
+    "aliases": [
+      "vital signs"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "Electronic Health Records (EHR)",
+    "aliases": [
+      "electronic health records",
+      "ehr"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "Phlebotomy",
+    "aliases": [
+      "phlebotomy"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "CPR Certified",
+    "aliases": [
+      "cpr"
+    ],
+    "category": "healthcare"
+  },
+  {
+    "skill": "Food Safety",
+    "aliases": [
+      "food safety"
+    ],
+    "category": "hospitality_food"
+  },
+  {
+    "skill": "Menu Planning",
+    "aliases": [
+      "menu planning"
+    ],
+    "category": "hospitality_food"
+  },
+  {
+    "skill": "Cooking",
+    "aliases": [
+      "cooking"
+    ],
+    "category": "hospitality_food"
+  },
+  {
+    "skill": "Culinary Arts",
+    "aliases": [
+      "culinary"
+    ],
+    "category": "hospitality_food"
+  },
+  {
+    "skill": "Banquet Operations",
+    "aliases": [
+      "banquet"
+    ],
+    "category": "hospitality_food"
+  },
+  {
+    "skill": "Catering",
+    "aliases": [
+      "catering"
+    ],
+    "category": "hospitality_food"
+  },
+  {
+    "skill": "Lesson Planning",
+    "aliases": [
+      "lesson planning",
+      "lesson plans"
+    ],
+    "category": "education"
+  },
+  {
+    "skill": "Curriculum Development",
+    "aliases": [
+      "curriculum development"
+    ],
+    "category": "education"
+  },
+  {
+    "skill": "Classroom Management",
+    "aliases": [
+      "classroom management"
+    ],
+    "category": "education"
+  },
+  {
+    "skill": "Teaching",
+    "aliases": [
+      "teaching",
+      "instruction"
+    ],
+    "category": "education"
+  },
+  {
+    "skill": "Tutoring",
+    "aliases": [
+      "tutoring"
+    ],
+    "category": "education"
+  },
+  {
+    "skill": "Special Education",
+    "aliases": [
+      "special education"
+    ],
+    "category": "education"
+  },
+  {
+    "skill": "Mathematics Instruction",
+    "aliases": [
+      "mathematics",
+      "math"
+    ],
+    "category": "education"
+  },
+  {
+    "skill": "Litigation",
+    "aliases": [
+      "litigation"
+    ],
+    "category": "legal"
+  },
+  {
+    "skill": "Legal Research",
+    "aliases": [
+      "legal research"
+    ],
+    "category": "legal"
+  },
+  {
+    "skill": "Contract Review",
+    "aliases": [
+      "contract review"
+    ],
+    "category": "legal"
+  },
+  {
+    "skill": "Compliance",
+    "aliases": [
+      "compliance"
+    ],
+    "category": "legal"
+  },
+  {
+    "skill": "Case Management",
+    "aliases": [
+      "case management"
+    ],
+    "category": "legal"
+  },
+  {
+    "skill": "Fleet Management",
+    "aliases": [
+      "fleet management"
+    ],
+    "category": "aviation_logistics"
+  },
+  {
+    "skill": "Dispatch",
+    "aliases": [
+      "dispatch"
+    ],
+    "category": "aviation_logistics"
+  },
+  {
+    "skill": "FAA Regulations",
+    "aliases": [
+      "faa regulations",
+      "faa"
+    ],
+    "category": "aviation_logistics"
+  },
+  {
+    "skill": "Media Relations",
+    "aliases": [
+      "media relations"
+    ],
+    "category": "public_relations"
+  },
+  {
+    "skill": "Press Releases",
+    "aliases": [
+      "press releases",
+      "press"
+    ],
+    "category": "public_relations"
+  },
+  {
+    "skill": "Event Planning",
+    "aliases": [
+      "event planning"
+    ],
+    "category": "public_relations"
+  },
+  {
+    "skill": "Crisis Communication",
+    "aliases": [
+      "crisis communication"
+    ],
+    "category": "public_relations"
+  },
+  {
+    "skill": "Personal Training",
+    "aliases": [
+      "personal training"
+    ],
+    "category": "fitness"
+  },
+  {
+    "skill": "Group Fitness Instruction",
+    "aliases": [
+      "group fitness"
+    ],
+    "category": "fitness"
+  },
+  {
+    "skill": "Nutrition Coaching",
+    "aliases": [
+      "nutrition"
+    ],
+    "category": "fitness"
+  },
+  {
+    "skill": "Exercise Programming",
+    "aliases": [
+      "exercise programming",
+      "training programs"
+    ],
+    "category": "fitness"
+  }
+]
